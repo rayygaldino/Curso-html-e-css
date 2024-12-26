@@ -7,9 +7,9 @@ h3 {
     color: green;
 }
 
-p {
-    color: blueviolet;
-}
+    p {
+       /* color: blueviolet; */
+    }
 
 /* classes */
 .paragraph {
@@ -25,7 +25,7 @@ p {
     padding: 10px;
     font-size: 40px;
 }
- /* ordem das regras */
+/* ordem das regras */
  h2 {
     border-bottom: 2px solid red;
  }
@@ -38,7 +38,76 @@ p {
     border-bottom: 4px solid green;
  }
 
- /* Nome de cores */
+/* Nome de cores */
  .color-name {
     color:crimson;
  }
+
+/* Hex */
+ .hex {
+    color: #55a398;
+ }
+
+ .hex-2 {
+    color: #002701;
+ }
+
+ .simple-hex {
+    color: #333;
+ }
+
+ .simple-hex-2 {
+    color: #a5f;
+ }
+
+/* RGB */
+.rgb {
+    color: rgb(255, 0, 0);
+}
+
+.mixed-rgb {
+    color: rgb(199, 21, 47);
+}
+
+/* RGBA */
+.rgba {
+    color: rgba(100, 199, 45, 0.3)
+}
+
+/* HSL */
+.hsl {
+    color:hsl(250, 100%, 20%)
+}
+
+.hsl-2 {
+    color: hsl(200, 50%, 34%);
+}
+
+/* Background */
+.bg {
+    background-color: #000;
+    color: yellow;
+}
+
+.bg-2 {
+    background-color: rgb(200, 20, 40);
+    color: #00eaff;
+}
+
+/* Background opacity: todos os elemento filhos */
+.bg-opacity {
+    background-color: green;
+    opacity: 0.2;
+}
+
+.bg-opacity-2 {
+    background-color: #999;
+    color: #000;
+    opacity: 0.2;
+}
+
+/* Background RGBA com opacidade: somente o fundo */
+.rgba-opacity {
+    background-color: rgba(64, 85, 17, 0.2);
+    color: #000;
+}

@@ -155,3 +155,41 @@ h3 {
 .padding {
     padding: 20px;
 }
+
+/* Padding individual */
+.padding-individual {
+    background-color: #222;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+
+/* shorthand-padding */
+.shorthand-padding {
+    background-color: #444;
+    padding: 6px 12px 18px 24px;
+}
+
+.shorthand-padding-2 {
+    background-color: #555;
+    padding: 10px 20px;
+    /* padding: 10px 20px 10px 20px; */
+}
+
+/* Padding com width */
+.without-border-box {
+    background-color: #444;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+}
+
+.border-box {
+    background-color: #666;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
